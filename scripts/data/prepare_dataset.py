@@ -15,7 +15,7 @@ import zipfile
 
 REPO = Path(__file__).resolve().parents[2]
 NAME = "cst_airfoil_dim_20_source_split_r1_aug20_abs005"
-ARCHIVE = REPO / "dataset/geodiff_review_r2_abs005_dataset.zip"
+ARCHIVE = REPO / "dataset/geodiff_abs005_dataset.zip"
 
 def rows(raw):
     return list(csv.DictReader(io.StringIO(raw.decode("utf-8-sig"))))

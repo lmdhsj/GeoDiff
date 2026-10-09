@@ -1,12 +1,12 @@
 # GeoDiff
 
-GeoDiff generates airfoils from four geometric conditions using a conditional diffusion model in an autoencoder latent space. The current `review_r2` configuration uses a **20-dimensional airfoil representation** and an **8-dimensional latent space**.
+GeoDiff generates airfoils from four geometric conditions using a conditional diffusion model in an autoencoder latent space. The current model configuration uses a **20-dimensional airfoil representation** and an **8-dimensional latent space**.
 
 This release provides the processed dataset used by the current model, the original processed airfoils, exact split manifests, and scripts for reproducing the source split and training-only augmentation.
 
 ## Dataset download
 
-Download [`dataset/geodiff_review_r2_abs005_dataset.zip`](dataset/geodiff_review_r2_abs005_dataset.zip), or clone this repository:
+Download [`dataset/geodiff_abs005_dataset.zip`](dataset/geodiff_abs005_dataset.zip), or clone this repository:
 
 ```bash
 git clone https://github.com/lmdhsj/GeoDiff.git

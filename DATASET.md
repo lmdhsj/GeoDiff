@@ -2,7 +2,7 @@
 
 ## Obtain the data
 
-For the exact dataset used by `review_r2`, download `dataset/geodiff_review_r2_abs005_dataset.zip` from this repository and run:
+For the exact dataset used by the current GeoDiff model, download `dataset/geodiff_abs005_dataset.zip` from this repository and run:
 
 ```bash
 python scripts/data/prepare_dataset.py
