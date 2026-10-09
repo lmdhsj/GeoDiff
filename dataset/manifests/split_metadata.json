@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-08-31T10:24:20.371511+00:00",
+  "source_directory": "dataset/cst_airfoil_dim_20",
+  "output_directory": "dataset/cst_airfoil_dim_20_source_split_r1",
+  "split_unit": "original .dat source file, with byte-identical files grouped",
+  "method": "deterministic random group split",
+  "seed": 44,
+  "requested_test_ratio": 0.2,
+  "source_file_count": 1500,
+  "unique_content_group_count": 1486,
+  "duplicate_content_group_count": 14,
+  "train_file_count": 1200,
+  "test_file_count": 300,
+  "actual_test_ratio": 0.2,
+  "cross_split_identical_hash_count": 0
+}

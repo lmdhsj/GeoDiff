@@ -1,0 +1,15 @@
+content_group_id,split,file_count,filenames,sha256
+content_group_0020,train,2,ag44ct-02r.dat | ag44ct02r.dat,ac93e81d69b91b88f7fc6d0bbe29cf551163c5641682943ec3589b02a2a05844
+content_group_0021,train,2,ag455ct-02r.dat | ag455ct02r.dat,4ce3cc901a1f967c1b86331e4353456fa78e65da38d21a1e8b5ab1fdf362c5e0
+content_group_0022,train,2,ag45ct-02r.dat | ag45ct02r.dat,af1f427957140f110b2bcc1baf54141172784de5d80116af6a4545afdc7c4646
+content_group_0023,train,2,ag46ct-02r.dat | ag46ct02r.dat,87aa89a62d1cf7b9d84ab1ab80e52a696c51a4b4f466652e92fc8724712f3bb9
+content_group_0024,train,2,ag47ct-02r.dat | ag47ct02r.dat,111bf2fed5fc862967126a9217b0284b00696effe3c4beb4515101059f2644f1
+content_group_0151,train,2,du-80-141.dat | du80141.dat,f25069736709ce0ebc0280d252f6dd71dc4ccaef02abce81e771a3c3c4167134
+content_group_0362,train,2,fx711530.dat | fx71l150.dat,81726bcb46b8c4ba7a8ca6e8279f8229a5941cb9c75469bf1f4eff4f5fdf8d00
+content_group_0763,train,2,goe801.dat | goe802.dat,36a99dd7260a436082920d590fc66dd19dd9acde6c15eac56200e70867696138
+content_group_0898,train,2,jwl042.dat | jwl043.dat,7177fad565f6cae77d5000619b7a34feadca636bed6fc8f7d58bf74717452a31
+content_group_0967,train,2,m3.dat | nacam3.dat,a0c3251b37cdcfdcc962f91f0458031dd8c1e82d8c9ba8fe230e2c6c930e1bc9
+content_group_1135,train,2,n64215.dat | naca642215.dat,61d9d219dfbabe769889e722e451c227211e222345baa00c6ff50fbaf5310213
+content_group_1136,train,2,n642415.dat | naca642415.dat,6ddadc995d558aeead4b26554610298249fe1763d42616bdf3bc58310301925e
+content_group_1273,train,2,prandtl-d-wingtip.dat | prandtldtip.dat,e762aad65bce9eb27d883d72c0d62172f7492ae1a3093be4994ca99fdb84f125
+content_group_1288,train,2,rae2822.dat | rae69ck.dat,918d4ad546b21707bed9408ee54f7872a116d8b5d3750681be6f192e02eb79ce

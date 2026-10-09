@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "archive_sha256": "28d9096d27e98b6a43d0cb16a67196c21acbba0a4c6dbd50768238a8d88e13fe",
+  "original_sources": 1500,
+  "original_training_sources": 1080,
+  "augmented_training_variants": 21600,
+  "training_samples": 22680,
+  "validation_samples": 120,
+  "test_samples": 300,
+  "total_final_dataset_records": 23100,
+  "absolute_offset_min": -0.04999993999999999,
+  "absolute_offset_max": 0.04999988999999999,
+  "cross_split_identical_hashes": 0,
+  "original_records_byte_identical": true,
+  "all_data_file_hashes_match": true,
+  "data_zip_bytes": 12959337,
+  "created_utc": "2026-10-09T10:52:29.624435+00:00",
+  "previous_full_numeric_audit": {
+    "augmented_files": 21600,
+    "checked_coefficient_pairs": 302400,
+    "absolute_0_05_seed_replay_matching_files": 21600,
+    "relative_20_percent_seed_replay_matching_files": 0
+  },
+  "full_script_reproduction": {
+    "status": "passed",
+    "compared_records": 23100,
+    "mismatch_count": 0,
+    "rejected_attempts": 306
+  }
+}

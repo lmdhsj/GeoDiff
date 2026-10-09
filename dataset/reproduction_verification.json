@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "compared_records": 23100,
+  "mismatch_count": 0,
+  "first_mismatches": [],
+  "scope": "Full run of the published source split and absolute augmentation scripts, followed by byte-hash comparison of all final .dat records.",
+  "seed": 44,
+  "absolute_perturbation": 0.05,
+  "train_sources": 1080,
+  "validation_sources": 120,
+  "test_sources": 300,
+  "training_samples": 22680,
+  "augmentations_per_source": 20,
+  "rejected_attempts": 306,
+  "python_version": "3.12.9",
+  "numpy_version": "1.26.4",
+  "aerosandbox_version": "4.2.8",
+  "descriptor_calculation_order": "Evaluate perturbed parameters before final eight-decimal file serialization"
+}

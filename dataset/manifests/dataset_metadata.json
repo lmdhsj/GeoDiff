@@ -1,0 +1,64 @@
+{
+  "created_utc": "2026-09-15T10:49:42.887368+00:00",
+  "input_root": "dataset/cst_airfoil_dim_20_source_split_r1",
+  "output_root": "dataset/cst_airfoil_dim_20_source_split_r1_aug20_abs005",
+  "seed": 44,
+  "train_source_count": 1080,
+  "validation_source_count": 120,
+  "test_source_count": 300,
+  "augmentations_per_train_source": 20,
+  "planned_train_file_count": 22680,
+  "perturbation_type": "absolute_additive_uniform",
+  "absolute_perturbation": 0.05,
+  "descriptor_method": "kulfan_nodes",
+  "development_duplicate_content_groups": 14,
+  "python_version": "3.12.9",
+  "aerosandbox_version": "4.2.8",
+  "numpy_version": "1.26.4",
+  "perturbed_dimensions_one_based": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "unchanged_dimensions_one_based": [
+    15,
+    16
+  ],
+  "recomputed_dimensions_one_based": [
+    17,
+    18,
+    19,
+    20
+  ],
+  "perturbation_formula": "new[i] = source[i] + Uniform(-absolute_perturbation, +absolute_perturbation)",
+  "coordinate_method": {
+    "function": "get_kulfan_coordinates",
+    "N1": 0.5,
+    "N2": 1.0,
+    "n_points_per_side": 100,
+    "TE_thickness_policy": "max(0, dimension_15)"
+  },
+  "original_train_samples_policy": "copied unchanged into train_combined",
+  "validation_policy": "original files only; no augmentation",
+  "test_policy": "original files only; no augmentation",
+  "geometry_validity_policy": "finite Kulfan coordinates, monotonic surface x coordinates, and vertical thickness >= -geometry_tolerance",
+  "geometry_tolerance": 1e-08,
+  "total_rejected_attempts": 306,
+  "rejection_reason_counts": {
+    "negative thickness / surface crossing": 306
+  },
+  "actual_train_file_count": 22680,
+  "actual_validation_file_count": 120,
+  "actual_test_file_count": 300
+}
